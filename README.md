@@ -1,6 +1,6 @@
 
 --SQL Retail Sales Aalysis
-
+'''sql
 --Create TABLE
 CREATE TABLE retail_sales
             (
@@ -16,7 +16,7 @@ CREATE TABLE retail_sales
 			    cogs FLOAT,
 			    total_sale FLOAT
             );
-
+			'''
 SELECT * FROM retail_sales
 LIMIT 10;
 
@@ -72,6 +72,7 @@ WHERE
 	cogs IS NULL
 	OR
 	total_sale IS NULL
+
 
 --Data Exploration
 
